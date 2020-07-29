@@ -1,0 +1,229 @@
+:root {
+    --primary-color: hsl(171, 66%, 44%);
+    --sec-color: hsl(233, 100%, 69%);
+    --light-color: hsl(201, 11%, 66%);
+    --dark-color:  hsl(210, 10%, 33%);
+}
+
+/* Reset */
+
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main Styles */
+
+html, body {
+    color: var(--light-color);
+    Font-size: 1.125rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    margin: .5em 0;
+}
+
+h1, h2, h3 {
+    color: var(--dark-color);
+    margin-bottom: .55em;
+    line-height: 1.3;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Utility */
+
+.container {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.btn {
+    display: inline-block;
+    background: var(--primary-color);
+    padding: .75em 2.5em;
+    box-shadow: 1px 2px 1px 1px hsl(171, 66%, 35%);
+    margin: 1em 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn--sec {
+    background: var(--sec-color);
+    box-shadow: 0 2px 1px 1px hsl(233, 100%, 60%);
+    transition: 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+    background:  hsl(171, 66%, 38%);
+}
+
+.btn--sec:hover,
+.btn--sec:focus {
+    background:  hsl(233, 100%, 63%);
+}
+
+.btn--mobile {
+    width: 100%;
+}
+
+.page--heading {
+    margin-bottom: 2em ;
+    text-align: center;
+    
+}
+
+section {
+    margin: 6em 0;
+}
+
+.section--heading {
+    margin-bottom: 4em ;
+    text-align: center;
+}
+
+.section__title {
+    font-size: 2.2rem;
+}
+
+.section__subtitle {
+    font-size: 1.9rem;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    background: url(../images/bg-header-desktop.png);
+    padding: 3em 0;
+}
+
+.site-logo {
+    width: 100px;
+}
+
+/* Showcase section */
+
+.showcase {
+    text-align: center;
+    margin-top: 2em ;
+    
+}
+
+/* Snippets Section */
+
+
+.snippets__pc {
+    margin-bottom: 3em;
+}
+
+.snippets__list{
+   text-align: center;
+}
+
+.snippets__list p {
+    margin-bottom: 3em ;
+}
+
+.snippets--container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Clipboard section */
+
+.clipboard {
+    text-align: center;
+}
+
+/* Workflow Section */
+
+.workflow__lists {
+    text-align: center;
+}
+
+.workflow__item {
+    margin-bottom: 3em;
+}
+
+
+/* Partners Section */
+
+.partners__list {
+    text-align: center;
+}
+
+.partners__img {
+    margin-bottom: 2em;
+}
+
+/* Outro Section */
+.outro {
+    text-align: center;
+}
+
+/*  Main Footer */
+
+.footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 2.5em 0;
+}
+
+.footer__logo {
+    margin-bottom: 1.5em;
+}
+
+.footer__logo--img {
+    width: 80px;
+}
+
+.footer__link{
+    color: var(--dark-color);
+}
+
+.footer__links li {
+    margin-bottom: 1em;
+}
+
+.footer__links {
+    margin-bottom: 2em;
+}
+
+
+.footer__socials__links {
+    padding: 0 1em;
+    color: var(--dark-color);
+}
+
+/* footer sec */
+
+.footer__sec {
+    margin-top: 1em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

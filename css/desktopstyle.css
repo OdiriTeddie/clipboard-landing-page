@@ -1,0 +1,110 @@
+.page--heading {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.section--heading {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 4em ;
+    text-align: center;
+}
+
+/* Showcase Section */
+.btn--mobile {
+    width: 300px;
+    margin-left: 1em;
+}
+
+/* Snippet Section */
+
+.snippets--container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.snippets__list {
+    display: flex;  
+    text-align: left;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.snippets__list h3 {
+    font-size: 1.1rem;
+}
+
+.snippets__list p {
+    font-size: 1rem;
+}
+
+.snippets__pc img{
+    width: 95%;
+    margin-left: -1.3em;
+}
+
+.snippets__item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.4em;
+}
+
+.snippets__pc--col + .snippets__pc--col {
+    margin-left: 1em;
+}
+
+
+/* Workflow Section */
+
+.workflow__lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workflow__item + .workflow__item {
+ 
+    margin-left: 1em;
+}
+
+/* Partner Section */
+
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners__img + .partners__img {
+    margin-left: 1.2em;
+}
+
+/* Footer Section */
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 0.9rem
+}
+
+.footer__menu + .footer__menu {
+    margin-left: 3em;
+}
+
+.footer__col + .footer__col {
+    margin-left: 1.5em;
+}
+
+.footer__socials__links {
+    padding: 0 0.8em;
+}
+
+
